@@ -1,0 +1,60 @@
+@font-face {
+    font-family: typo;
+    src: url(american-typewriter.ttf);
+}
+
+h1 {
+    font-family: typo, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(34, 34, 104);
+}
+
+h2 {
+    color: rgb(73, 16, 121);
+    text-decoration: underline;
+    font-family: typo, sans-serif;
+}
+
+/* Class selector targeting my list class */
+.list {
+    color: rgb(43, 106, 160);
+    font-family: typo, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    background-color: rgb(43, 226, 134);
+    width: 300px;
+} 
+
+/* Persuasion class to target potential buyers */
+.persuasion {
+    font-family: typo, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(206, 20, 196);
+    background-color: yellow;
+    width: 250px;
+    padding-left: 100px;
+    background-clip: padding-box;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+p {
+    color: rgb(37, 37, 105);
+    font-family: typo, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    background-color: black;
+    border-radius: 35%;
+    width:960px;
+    height:540px;
+}
+
+body {
+    color: rgb(68, 68, 22);
+    background-image: url('white-paint-wall-background-texture_53876-16373.avif');
+    background-size: cover;
+    text-decoration: wavy;
+}
+
+#contact {
+    color: red;
+    text-decoration: dashed;
+    font-family: typo, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

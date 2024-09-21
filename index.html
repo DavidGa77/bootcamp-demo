@@ -9,20 +9,28 @@
 </head>
 
 <body>
-  <h1>Ford Mustang fanboy page</h1>
+  <h1>Ford Mustang fan page</h1>
   <h2>Purely for car nerds</h2>
   <p>Welcome to this wonderful webpage about the Ford Mustang.</p>
+  <h2 class="persuasion">Why buy one ...?</h2>
+  <ul class="list">
+    <li>4l V8</li>
+    <li>453 bhp</li>
+    <li>Goes "broom broom"</li>
+  </ul>  
   <a href="http://www.google.co.uk" target="_blank">
-    <img src="mustang.png" alt="Blue Ford Mustang" style="width:960px;height:540px;"/>
+    <img src="mustang.png" alt="Blue Ford Mustang"/>
   </a>
   <h2>Get more info</h2>
-  <form>
+  <form id="contact">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name"><br><br>
     <label for="email">Email:</label>
     <input type="text" id="email" name="email"><br><br>
     <label for="phone">Phone Number:</label>
     <input type="text" id="phone" name="phone"><br><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
     <h2>Contact me via:</h2>
     <label for="pn">Phone</label>
     <input type="checkbox" id="pn" name="pn"><br>
@@ -32,7 +40,7 @@
     <input type="checkbox" id="sm" name="sm"><br>
     <label for="ps">Post</label>
     <input type="checkbox" id="ps" name="ps"><br>
-    <label for="datepick">Contact me by date:</label>
+    <label for="datepick">By date:</label>
     <input type="date" id="datepick" name="datepick"><br><br>
     <input type="submit" value="Say Hi!">
   </form> 
